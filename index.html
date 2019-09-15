@@ -11,6 +11,11 @@
         align-items: center;
       }
 
+      #container {
+        display: flex;
+        flex-direction: column;
+      }
+
       img {
         width: 200px;
         height: 200px;
@@ -22,7 +27,7 @@
   <body>
     <h1>Lazy Load</h1>
 
-    <div>
+    <div id="container">
       <img src="./Smudge1.jpg" alt="" />
       <img src="./Smudge2.jpg" alt="" />
       <img src="./Smudge3.jpg" alt="" />
